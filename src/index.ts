@@ -202,8 +202,7 @@ async function execSftpCommand(sshConfig: any, action: string, ...args: any[]) {
                 conn.end();
                 return;
               }
-              resolve(list],
-              });
+              resolve(list);
               conn.end();
             });
             break;
